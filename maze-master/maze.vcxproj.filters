@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{9ce7e3b0-8790-4999-bdfa-92dea1287baf}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{50863731-15b2-4285-b8d9-13daa5c5d828}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{ac60956c-1361-4b4b-a6b5-78897db3da78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{0e914ea8-4ba9-476f-9cb2-b565ac71736e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\autres">
+      <UniqueIdentifier>{826b0af7-9f1f-4645-847f-9e2145711789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\autres">
+      <UniqueIdentifier>{b06e6ac1-5752-4f03-a42a-4f0594286b24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Debug\moc_newmazedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_newmazedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mazecontroller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mazecontroller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_evaluationdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_evaluationdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_solvemazedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_solvemazedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_evaluation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_evaluation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="model\algorithm.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\evaluation.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\maze.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\mazegenerator.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\mazesolver.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="doorview.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="evaluationdialog.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="evaluationtablemodel.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="mazecontroller.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="mazescene.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="mazesolverview.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="mazeview.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="newmazedialog.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="roomview.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+    <ClCompile Include="solvemazedialog.cpp">
+      <Filter>Source Files\autres</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_evaluationdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newmazedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_solvemazedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model\algorithm.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\maze.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\mazegenerator.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\mazesolver.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files\autres</Filter>
+    </CustomBuild>
+    <ClInclude Include="mazescene.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+    <ClInclude Include="mazesolverview.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="model\evaluation.h">
+      <Filter>Header Files\model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="evaluationdialog.h">
+      <Filter>Header Files\autres</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mazecontroller.h">
+      <Filter>Header Files\autres</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newmazedialog.h">
+      <Filter>Header Files\autres</Filter>
+    </CustomBuild>
+    <CustomBuild Include="solvemazedialog.h">
+      <Filter>Header Files\autres</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="evaluationdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newmazedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="solvemazedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="doorview.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+    <ClInclude Include="evaluationtablemodel.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+    <ClInclude Include="mazeview.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+    <ClInclude Include="roomview.h">
+      <Filter>Header Files\autres</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
